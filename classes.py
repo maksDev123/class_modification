@@ -1,14 +1,8 @@
 """ Classes """
 
-class InctanceCreatingExeption(Exception):
-    """ This exeption ocures when there are some problems in inctance creation """
 
-class NotADocument(InctanceCreatingExeption):
-    """ This exeption ocures when """
-
-class UnaddableCharacter(Exception):
-    """ This exeption ocure when object passed in insert function can not be converted to string """
-
+class NotADocument(Exception):
+    """ This exeption ocures when we pass not a document to cursor """
 class UnvalidCharacter(Exception):
     """ This exeption ocures when unvalid character is passed in document """
 class EmptyDocDeleting(Exception):
