@@ -32,7 +32,7 @@ Has following methods and properties:
 * "__init__" - inits character
 * "__str__" - represents character as string
 
-### Exeption
+### Exeptions
 NotADocument - This exeption ocures when we pass not a document to cursor
 UnvalidCharacter - This exeption ocures when unvalid character is passed in document
 EmptyDocDeleting - This exeption ocures we try to delete character from empty document
