@@ -87,11 +87,9 @@ class Character:
     """ Character class """
     def __init__(self, character,bold = False, italic = False, underline= False):
         """ Init character """
-        if len(character) != 1:
+        if not isinstance(character, str):
             raise UnvalidCharacter
-        try:
-            str(character)
-        except TypeError:
+        if len(character) != 1:
             raise UnvalidCharacter
         self.character = character
         self.bold = bold
