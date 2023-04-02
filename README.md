@@ -33,9 +33,9 @@ Has following methods and properties:
 * "__str__" - represents character as string
 
 ### Exeptions
-NotADocument - This exeption ocures when we pass not a document to cursor
-UnvalidCharacter - This exeption ocures when unvalid character is passed in document
-EmptyDocDeleting - This exeption ocures we try to delete character from empty document
+* NotADocument - This exeption ocures when we pass not a document to cursor
+* UnvalidCharacter - This exeption ocures when unvalid character is passed in document
+* EmptyDocDeleting - This exeption ocures we try to delete character from empty document
 
 ### Example of usage
 ```
