@@ -17,7 +17,7 @@ class TestClasses(unittest.TestCase):
 
         with self.assertRaises(NotADocument):
             _ = Cursor(1)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(UnvalidCharacter):
             _ = Character(1, 2, 3)
         with self.assertRaises(UnvalidCharacter):
             _ = Character("asd")
